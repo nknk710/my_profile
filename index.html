@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>ポートフォリオ</title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/baa422a485.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#skill">Skill</a>
+      <a href="#introduction">About me</a>
+      
+    </header>
+    <div class="container">
+      <div class="top-wrapper">
+        <h1>Koki's Portfolio</h1>
+        <p>中西洸喜のポートフォリオサイトです。<br>求められるモノ以上のモノを制作、開発し、多くの人に幸せを与えられるエンジニアになりたいです。</p>
+      </div>
+      <div class="main-wrapper">
+        <div class="introduction" id="introduction">
+          <h2>about me</h2>
+          <div>
+            <i class="fas fa-user-circle icon"></i>
+            <h4>パーソナル情報</h4>
+            <p>中西 洸喜（なかにし こうき）</p>
+            <p>1995年09月16日生まれ / 24歳</p>
+          </div>
+          <div>
+            <i class="fas fa-male icon"></i>
+            <h4>経歴</h4>
+            <ul>
+              <li>2014年3月 : 山口県内の工業高校を卒業</li>
+              <li>2014年4月〜現在 : 山口県内の鉄鋼関連企業に就職</li>
+            </ul>
+            <p></p>
+          </div>
+        </div>
+        <div class="skill" id="skill">
+          <h2>Skill</h2>
+          <p>HTML,CSS</p>
+          <p>Java</p>
+          <p>JavaScript</p>
+          <p>jQuery</p>
+          <p>PHP</p>
+          <p>Laravel</p>
+          <i class="fas fa-pen-nib icon"></i>
+          <p class="supplement">2020年1月より独学でプログラミング学習を開始。(教材は主にProgate,ドットインストールを使用)<br>
+            同年3月にプログラミングスクールに入校し、主にPHP,Laravelの学習を行う。<br></p>
+        </div>
+        <div class="portfolio"id="portfolio">
+          <h2>成果物</h2>
+          <div>
+            <i class="fas fa-desktop icon"></i>
+            <h3 class="language">Laravel</h3>
+            <div class="app">
+              <h4 class="app-title">エンジニアのためのQ&A投稿アプリ</h4>
+              <div class="explanation">
+                <p>~アプリの概要~</p>
+                <ul>
+                  <li>ログイン機能</li>
+                  <li>質問投稿機能 (質問投稿時にカテゴリーの選択を義務付ける事で、検索時に調べたい質問を見つけやすくしました)</li>
+                  <li>回答投稿機能</li>
+                  <li>ベストアンサー設定機能 (ベストアンサーが設定された質問は解決済みの質問として、以降の回答を締め切り)</li>
+                  <li>気になった質問や見返したい質問を保存できるブックマーク機能</li>
+                  <li>質問検索機能</li>
+                </ul>
+              </div>
+              <div>
+                <i class="fas fa-code icon"></i>
+                <h4>ソースコード</h4><br>
+                <a href="https://github.com/nknk710/portfolio">GitHub(Q&Aアプリ)</a>
+              </div>
+              <div class="app-link">
+                <p>↓アプリへのリンク↓</p>
+                <a href="https://murmuring-lake-48080.herokuapp.com"><img src="img/qyou.png" alt=""></a>
+              </div>
+            </div>
+            <i class="fas fa-desktop icon"></i>
+            <h3 class="language">JavaScript</h3>
+            <div class="app">
+              <h4 class="app-title">オリジナル電卓</h4>
+              <div class="explanation">
+                <p>アプリの実行動画画面</p>
+                <video class="capture-video" src="movie/オリジナル電卓実行動画.mov" autoplay muted playsinline controls></video>
+              </div>
+              <div>
+                <i class="fas fa-code icon"></i>
+                <h4>ソースコード</h4><br>
+                <a href="https://github.com/nknk710/calculator">GitHub(オリジナル電卓)</a>
+              </div>
+              <div class="app-link">
+                <p>↓アプリへのリンク↓</p>
+                <a href="https://nknk710.github.io/calculator/"><img src="img/calculator.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <p>Copyright - koki nakanishi, 2020 All Rights Reserved.</p>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>    
+  </body>
+</html>
