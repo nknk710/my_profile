@@ -72,7 +72,6 @@ header a:hover {
               -1px 1px 0 #000, 1px -1px 0 #000,
               0px 1px 0 #000,  0-1px 0 #000,
               -1px 0 0 #000, 1px 0 0 #000;
-
 }
 
 h2 {
@@ -113,16 +112,16 @@ h4 {
   display: inline;
 }
 
-.aaa {
+.about-me {
   margin: 10px auto;
   padding: 5px 15px;
-  width: 900px;
+  width: 800px;
   border: 1px solid rgb(97, 96, 96);
   border-radius: 5px;
   text-align: left;
 }
 
-.aa {
+.about {
   line-height: 30px;
 }
 
@@ -222,6 +221,9 @@ footer p {
 }
 
 @media screen and (max-width: 800px) {
+  .about-me {
+    width: 500px;
+  }
   .app img {
     width: 500px;
     height: 280px;
@@ -242,6 +244,9 @@ footer p {
   }
   .top-wrapper p {
     margin-top: 150px;
+  }
+  .about-me {
+    width: 300px;
   }
   .app img {
     width: 300px;
