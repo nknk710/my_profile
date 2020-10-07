@@ -113,6 +113,19 @@ h4 {
   display: inline;
 }
 
+.aaa {
+  margin: 10px auto;
+  padding: 5px 15px;
+  width: 900px;
+  border: 1px solid rgb(97, 96, 96);
+  border-radius: 5px;
+  text-align: left;
+}
+
+.aa {
+  line-height: 30px;
+}
+
 .main-wrapper {
   margin: 0 auto;
   text-align: center;
@@ -128,6 +141,7 @@ h4 {
 
 .supplement {
   display: inline;
+  line-height: 30px;
 }
 
 .language {
